@@ -1,0 +1,102 @@
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+.skill-content{
+    text-align: center;
+}
+.skill-content h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+.skill-content p{
+    color: var(--color-tertiary);
+    font-weight: 500;
+}
+
+
+.skill-technical{
+    display: flex;
+    flex-direction: row;
+justify-content: space-evenly;
+    align-items: start;
+    width: 100%;
+}
+.skill-service{
+   margin-top: 5rem;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: -9px 10px 11px -1px rgba(0,0,0,0.20 );
+}
+.skill-service i{
+    font-size: 60px;
+}
+.skill-service h3{
+    font-size: 20px;
+    color: black;
+}
+.skill-service div{
+    margin-bottom: 2rem;
+    
+}
+.skill-languages{
+    flex: 0.5;
+    margin-top: 5.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    gap: 1em;
+   
+}
+
+@media screen and (max-width: 600px){
+    .skill-content{
+        margin-top: 1.4rem;
+    }
+    .skill-content h2{
+        font-size: 50px;
+    }
+    .skill-technical{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .skill-service{
+        margin-top: 3rem;
+        padding: 2rem;
+     }
+    .skill-languages{
+        flex: 0.5;
+        margin-top: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 1em;
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .skill-service{
+         padding: 2rem;
+     }
+     .skill-service i{
+        font-size: 35px;
+    }
+    .skill-service h3{
+        font-size: 17px;
+        color: black;
+    }
+    .skill-languages{
+        gap: 0.5em;
+    }
+}

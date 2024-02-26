@@ -1,0 +1,104 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+.contact-header{
+    text-align: center;
+}
+.contact-header h3{
+    font-size: 50px;
+    font-weight: 600;
+}
+.contact-header p{
+    color: var(--color-tertiary);
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    background-color: white;
+    padding: 3rem;
+    width: 65%;
+    height: 100vh;
+    margin-top: 5rem;
+}
+
+.contact-name{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.contact-name input,
+.contact-email input{
+    border: none;
+    background-color: rgb(237, 237, 237);
+    height: 66px;
+    border-radius: 0.5rem;
+    text-indent: 1rem;
+}
+.contact-email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contact-msg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contact-msg textarea{
+    border: none;
+    background-color: rgb(237, 237, 237);
+    height: 66px;
+    border-radius: 0.5rem;
+    height: 250px;
+    padding: 1rem;
+}
+.contact-name label,
+.contact-email label,
+.contact-msg label{
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+}
+.contact-form button{
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    width: 150px;
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 25px;
+    align-self: flex-end;
+    color: white;
+    background-color: black;
+}
+.contact-form button:hover{
+    background-color: rgb(43, 43, 43);
+}
+@media screen and (max-width: 600px){
+    .contact-form{
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    .contact-name input,
+.contact-email input{
+    height: 46px;
+}
+}
+
+
+@media screen and (max-width: 1024px){
+    .contact-form button{
+        padding: 0.6rem;
+        width: 120px;
+        font-weight: 600;
+        font-size: 17px;
+
+    }
+}

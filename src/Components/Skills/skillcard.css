@@ -1,0 +1,32 @@
+.skillcard-container{
+    background-color: rgb(222, 222, 222);
+    padding: 1.2rem;
+    border-radius: 0.7rem;
+    text-align: center;
+}
+.skillcard-container h3{
+    color: rgb(32, 32, 32);
+    font-size: 15px;
+    font-weight: 600;
+}
+@media screen and (max-width: 600px){
+    .skillcard-container h3{
+     
+        font-size: 10px;
+    
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .skillcard-container{
+        padding: 0.9rem;
+        border-radius: 0.4rem;
+
+    }
+    .skillcard-container h3{
+     
+        font-size: 10px;
+    
+    }
+}

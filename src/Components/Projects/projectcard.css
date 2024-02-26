@@ -1,0 +1,68 @@
+.projectcard-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.projectcard-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    padding: 1.4rem;
+    border-radius: 1rem;
+}
+
+.projectcard-img img{
+    width: 230px;
+    height:160px;
+    border-radius: 1rem;
+}
+
+
+.projectcard-footer h2{
+    font-size: 15px;
+    padding: 0.3rem;
+    font-weight: 600;
+}
+
+
+.projectcard-links h3{
+    color: rgb(111, 111, 111);
+    font-size: 14px;
+    margin-bottom: 6px;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+.demo:hover {
+    background-color: black;
+    color: rgb(210, 210, 210);
+}
+.repo:hover {
+    background-color: black;
+    color: rgb(210, 210, 210);
+}
+
+@media screen and (max-width: 600px){
+    .projectcard-card{
+        padding: 0.9rem;
+    }
+    .projectcard-img img{
+        width: 170px;
+        height: 120px;
+    }
+    .projectcard-footer h2{
+        font-size: 12px;
+    }
+    .projectcard-links h3{
+        font-size: 11px;
+
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+  
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root{
+  --body-font:'Monstserrat', sans-serif;
+
+  --color-main:#000000;
+  --color-secondary:rgb(69, 69, 69);
+  --color-tertiary:rgb(112, 112, 112);
+
+  --big-font-size:3.5rem;
+  --h1-font-size:2.25rem;
+  --h2-font-size:1.5rem;
+  --h3-font-size:1.25rem;
+  --normal-font-size:1rem;
+  --small-font-size:0.875rem;
+  --smaller-font-size:0.813rem;
+  --tiny-font-sie:0.625rem;
+
+
+  --font-normal-weight:400;
+  --font-medium-weight:500;
+  --font-bold-weight:600;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body,button,input,textarea{
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body{
+  background-color: rgb(246, 246, 246);
+  color: var(--color-main);
+
+}
+
+h1,h2,h3{
+  font-weight: var(--font-medium-weight);
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--color-main);
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+
+
+.header-app{
+  
+  height: 10vh;
+}
+
+.main{
+
+  height: 90vh;
+}
+.submain{
+
+  height: auto;
+}
+
+.footer{
+ 
+  height: 10vh;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+
+}
+
+
+@media screen and (max-width: 1024px){
+  
+}
