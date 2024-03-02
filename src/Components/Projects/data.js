@@ -38,7 +38,7 @@ const data=[
         img:panote,
         category:"webapp",
         link:"https://github.com/beernaard/panote-app-react",
-        demo:null,
+        demo:"https://beernaard.github.io/panote-app-react/",
     },
     {
         index:crypto.randomUUID(),
