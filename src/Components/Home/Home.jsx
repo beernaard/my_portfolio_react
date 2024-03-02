@@ -5,11 +5,11 @@ import Data from "./Data";
 import homeimage from "../../assets/Images/homeimage.jpg";
 const Home = () => {
   const downLoadCv = () => {
-    const fileName = "Bernard Jr V-Resume.pdf";
+    const fileName = "Lagoc,Bernard Jr V-Resume.pdf";
     const link = document.createElement("a");
 
     link.download = fileName;
-    link.href = "../../assets/${fileName}";
+    link.href = "src\\assets\\Lagoc,Bernard Jr V-Resume.pdf";
 
     document.body.appendChild(link);
     link.click();

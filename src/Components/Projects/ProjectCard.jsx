@@ -17,9 +17,11 @@ const ProjectCard = ({ data }) => {
               <i class="uil uil-github"></i>Repository
             </h3>
           </a>
-          <a href="https://github.com/beernaard" target="_blank">
-            <h3 className="demo"> Demo</h3>
-          </a>
+          {data.demo !== null && (
+            <a href={data.demo} target="_blank">
+              <h3 className="demo"> Demo</h3>
+            </a>
+          )}
         </div>
       </div>
     </div>

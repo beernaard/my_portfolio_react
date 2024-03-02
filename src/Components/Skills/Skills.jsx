@@ -32,6 +32,7 @@ const Skills = () => {
           <SkillCard skill="Javascript" />
           <SkillCard skill="Node.js" />
           <SkillCard skill="MySQL" />
+          <SkillCard skill="SQL Server" />
           <SkillCard skill="C# .NET Framework" />
           <SkillCard skill="ASP.NET Core MVC" />
           <SkillCard skill="MongoDB" />
