@@ -9,7 +9,7 @@ const Home = () => {
     const link = document.createElement("a");
 
     link.download = fileName;
-    link.href = "src\\assets\\Images\\Lagoc,Bernard Jr V-Resume.pdf";
+    link.href = "src\\assets\\Lagoc,Bernard Jr V-Resume.pdf";
 
     document.body.appendChild(link);
     link.click();
