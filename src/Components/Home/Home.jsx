@@ -9,9 +9,10 @@ const Home = () => {
     const link = document.createElement("a");
 
     link.download = fileName;
-    // link.href = "src\\assets\\Lagoc,Bernard Jr V-Resume.pdf";
-    link.href =
-      "https://github.com/beernaard/my_portfolio_react/blob/470318420b7895fbcff88b1e6a05e14e49cb68ca/src/assets/Lagoc%2CBernard%20Jr%20V-Resume.pdf";
+    link.href = "src/assets/Lagoc,Bernard Jr V-Resume.pdf";
+
+    // link.href =
+    //   "https://github.com/beernaard/my_portfolio_react/blob/470318420b7895fbcff88b1e6a05e14e49cb68ca/src/assets/Lagoc%2CBernard%20Jr%20V-Resume.pdf";
 
     document.body.appendChild(link);
     link.click();
