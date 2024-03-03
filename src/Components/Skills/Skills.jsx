@@ -30,6 +30,7 @@ const Skills = () => {
           <SkillCard skill="HTML" />
           <SkillCard skill="CSS" />
           <SkillCard skill="Javascript" />
+          <SkillCard skill="React.js" />
           <SkillCard skill="Node.js" />
           <SkillCard skill="MySQL" />
           <SkillCard skill="SQL Server" />
